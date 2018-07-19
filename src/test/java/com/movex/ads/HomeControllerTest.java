@@ -10,7 +10,7 @@ public class HomeControllerTest {
 	public void junittest(){
 		HomeController t = new HomeController();
 		int result = t.junittest(10);
-		assertEquals(11, result, 1);
+		assertEquals(19, result, 0);
 		
 	}
 }
